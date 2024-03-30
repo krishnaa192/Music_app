@@ -1,0 +1,16 @@
+
+{% block body %}
+
+<div class="forms">
+    <div class="box">
+    <h1>Add Folder </h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create Folder</button>
+    <button> <a href="{% url 'home' %}">Back</a></button>
+</form>
+</div>
+</div>
+{% endblock %}

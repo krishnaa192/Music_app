@@ -1,0 +1,126 @@
+.card {
+  display: inline-block;
+  margin: 10px;
+}
+.card img {
+  height: 143px;
+  width: 214px;
+}
+.music-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.play-pause-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.music-track {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.music-track h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.music-track p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 5px;
+  background-color: #ddd !important;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #007bff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+}
+
+.time-info {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  color: white !important;
+}
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+h1 {
+  text-align: center;
+  background-color: cadetblue;
+  margin-top: 5px !important;
+  margin-bottom: 10px !important;
+}
+
+i{
+   
+    font-size: 26px;
+    color: #007bff !important;
+
+ 
+}
+button{
+    border: none !important;
+    background-color: white !important;
+   
+}
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
+}
+
+.play-pause-btn,
+form {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    justify-content: center; /* Center content horizontally */
+
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-pause-btn:hover,
+form:hover {
+    background-color: #e0e0e0; /* Example background color on hover */
+}
+
+/* Additional styles for FontAwesome icons */
+.play-pause-btn i,
+form i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+

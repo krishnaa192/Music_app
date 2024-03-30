@@ -1,0 +1,9 @@
+
+{% block body %}
+<h1>Add to Folder</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add to folder</button>
+</form>
+{% endblock %}
